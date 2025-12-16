@@ -210,40 +210,40 @@ function App() {
 
                 <div className="relative mx-auto max-w-6xl px-4 pb-16 pt-20 sm:px-6 sm:pb-24 sm:pt-28 lg:pt-32">
                     <div className="grid items-center gap-10 lg:grid-cols-2">
-                        <div className="space-y-6 animate-fade-in">
+                        <div className="space-y-6 animate-fade-in text-center lg:text-left">
                             <p className="inline-flex items-center gap-2 rounded-full bg-maroon/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.3em] text-maroon">
                                 Premium Handmade Garlands
                             </p>
                             <h1 className="font-display text-4xl leading-tight text-maroon sm:text-5xl lg:text-6xl">
                                 Viji Garlands
                             </h1>
-                            <p className="text-lg font-medium text-brown/90">
+                            <p className="text-base sm:text-lg font-medium text-brown/90">
                                 All Spices Garlands Available Here
                             </p>
-                            <p className="max-w-2xl text-base text-brown/80 leading-relaxed">
+                            <p className="max-w-2xl mx-auto lg:mx-0 text-sm sm:text-base text-brown/80 leading-relaxed">
                                 Crafted with devotion using cardamom, clove, nuts, and rich
                                 spices. Perfect for weddings, temple poojas, festivals, and
                                 cherished family occasions. Each strand is handmade with
                                 traditional care for an unforgettable fragrance and presence.
                             </p>
-                            <div className="flex flex-wrap gap-4">
+                            <div className="flex flex-col sm:flex-row flex-wrap gap-3 sm:gap-4 items-center lg:items-start">
                                 <a
                                     href={whatsappLink}
                                     target="_blank"
                                     rel="noreferrer"
-                                    className="inline-flex items-center gap-3 rounded-full bg-maroon px-5 py-3 text-base font-semibold text-cream shadow-glow transition hover:-translate-y-0.5"
+                                    className="inline-flex w-full sm:w-auto justify-center items-center gap-3 rounded-full bg-maroon px-5 py-3 text-base font-semibold text-cream shadow-glow transition hover:-translate-y-0.5"
                                 >
                                     <Icon type="whatsapp" />
                                     WhatsApp Order Now
                                 </a>
                                 <a
                                     href="#gallery"
-                                    className="inline-flex items-center gap-2 rounded-full border border-maroon/20 bg-cream px-5 py-3 text-base font-semibold text-maroon shadow-soft transition hover:-translate-y-0.5 hover:bg-maroon/5"
+                                    className="inline-flex w-full sm:w-auto justify-center items-center gap-2 rounded-full border border-maroon/20 bg-cream px-5 py-3 text-base font-semibold text-maroon shadow-soft transition hover:-translate-y-0.5 hover:bg-maroon/5"
                                 >
                                     View Gallery
                                 </a>
                             </div>
-                            <div className="flex flex-wrap gap-6 pt-3 text-sm text-brown/80">
+                            <div className="flex flex-wrap justify-center lg:justify-start gap-4 sm:gap-6 pt-3 text-xs sm:text-sm text-brown/80">
                                 <div className="flex items-center gap-2">
                                     <span className="h-2 w-2 rounded-full bg-gold" />
                                     Handmade in Tamil Nadu
@@ -277,7 +277,7 @@ function App() {
 
             {/* Products */}
             <section id="products" className="bg-cream">
-                <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
+                <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-20">
                     <SectionHeader
                         eyebrow="Signature Garlands"
                         title="Handmade Spice Collections"
@@ -313,7 +313,7 @@ function App() {
 
             {/* Gallery */}
             <section id="gallery" className="bg-sand/60">
-                <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
+                <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-20">
                     <SectionHeader
                         eyebrow="Crafted With Love"
                         title="Recent Garlands & Celebrations"
@@ -339,7 +339,7 @@ function App() {
 
             {/* About */}
             <section id="about" className="bg-cream">
-                <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
+                <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-20">
                     <div className="grid gap-10 lg:grid-cols-2 lg:items-center">
                         <div className="space-y-6">
                             <SectionHeader
@@ -398,7 +398,7 @@ function App() {
 
             {/* Contact */}
             <section id="contact" className="bg-sand/60">
-                <div className="mx-auto max-w-6xl px-4 py-16 sm:px-6 sm:py-20">
+                <div className="mx-auto max-w-6xl px-4 py-14 sm:px-6 sm:py-20">
                     <SectionHeader
                         eyebrow="Book Your Garlands"
                         title="Ready to Craft Your Order"
@@ -409,12 +409,12 @@ function App() {
                             Share your date, quantity, and preferred spices. We help with
                             sizing, delivery plans, and custom colors for your celebration.
                         </p>
-                        <div className="flex flex-wrap justify-center gap-4">
+                        <div className="flex flex-col sm:flex-row flex-wrap justify-center gap-3 sm:gap-4 w-full">
                             <a
                                 href={whatsappLink}
                                 target="_blank"
                                 rel="noreferrer"
-                                className="inline-flex items-center gap-3 rounded-full bg-maroon px-6 py-3 text-base font-semibold text-cream shadow-glow transition hover:-translate-y-0.5"
+                                className="inline-flex w-full sm:w-auto justify-center items-center gap-3 rounded-full bg-maroon px-6 py-3 text-base font-semibold text-cream shadow-glow transition hover:-translate-y-0.5"
                             >
                                 <Icon type="whatsapp" />
                                 WhatsApp Order Now
@@ -423,7 +423,7 @@ function App() {
                                 href={instagramLink}
                                 target="_blank"
                                 rel="noreferrer"
-                                className="inline-flex items-center gap-3 rounded-full border border-maroon/15 bg-cream px-6 py-3 text-base font-semibold text-maroon shadow-soft transition hover:-translate-y-0.5 hover:bg-maroon/5"
+                                className="inline-flex w-full sm:w-auto justify-center items-center gap-3 rounded-full border border-maroon/15 bg-cream px-6 py-3 text-base font-semibold text-maroon shadow-soft transition hover:-translate-y-0.5 hover:bg-maroon/5"
                             >
                                 <Icon type="instagram" />
                                 View Instagram
