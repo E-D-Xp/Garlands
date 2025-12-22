@@ -1,4 +1,4 @@
-## Viji Garlands – Luxury South Indian Garlands Website
+## Viji Garlands – South Indian Garlands Website
 
 This is a **frontend-only React + Vite + Tailwind CSS** single-page site for **Viji Garlands**, a traditional South Indian spice garland business.  
 It is optimized for **mobile-first browsing, Instagram & WhatsApp traffic**, and is ready to deploy on platforms like **Vercel**.
